@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body><center>
+    <h1>Cifrado Cesar</h1>
+    <section><center>
+        <div>Introduce tu mensaje a cifrar o descifrar:
+            <br>
+    <textarea id="cadena" class="mensaje" ></textarea>
+</div>
+<br>
+    <div>
+    Introduce el numero de posciciones a desplazar:
+    <br>
+    <textarea id="desplazamiento" class="numero"></textarea></div>
+</center></section>
+    <p> <input type="button" value="Cifrar" onclick="codificar()" >
+        <input type="button" value="Descifrar" onclick="decodificar()" >   </p>
+
+    <div  ><center id="resultado">
+
+        
+    </center>
+    
+</div><input type="button" value="No Presionar" onclick="no()" >
+    <script src="js/logica.js" > </script>
+</center></body>
+</html>
